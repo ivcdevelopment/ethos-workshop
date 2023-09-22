@@ -1,0 +1,36 @@
+_id: req_bc8ac1182357414482a55598005cc714
+type: Request
+parentId: wrk_0eae351dccf44edc880729bc61375a55
+modified: 1662555813546
+created: 1662555416094
+url: https://integrate.elluciancloud.com/consume
+name: consume
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_bfe261d4b047475f99cdfb3c9ec7af35
+    name: limit
+    value: "20"
+    description: ""
+  - id: pair_fd63f1066d494837b01c6b6d460593fb
+    name: lastProcessedID
+    value: "20"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648685562961.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

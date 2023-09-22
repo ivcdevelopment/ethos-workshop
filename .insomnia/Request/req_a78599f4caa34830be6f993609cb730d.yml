@@ -1,0 +1,47 @@
+_id: req_a78599f4caa34830be6f993609cb730d
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1662555801729
+created: 1662555416080
+url: "{{ _.ethosURL }}/persons/APIKEY"
+name: persons
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"names": [
+    		{
+    			"type": {
+    				"category": "legal"
+    			},
+    			"fullName": "Marvin Martian II",
+    			"firstName": "Marvin",
+    			"lastName": "Martian II"
+    		}
+    	],
+    	"dateOfBirth": "1984-01-01",
+    	"id": "APIKEY"
+    }
+parameters: []
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/vnd.hedtech.integration.v12+json
+    description: ""
+  - name: Content-Type
+    value: application/vnd.hedtech.integration.v12+json
+    id: pair_1c7f4d2c94eb4123975e43e740053850
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: 150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

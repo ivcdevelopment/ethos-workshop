@@ -1,0 +1,42 @@
+_id: req_8008153061d8412699ecdf556eea9a8d
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695231870526
+created: 1662555416074
+url: "{{ _.ethosURL }}/persons"
+name: persons
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"names": [
+    		{
+    			"fullName": "Marvin Martian II",
+    			"lastName": "Martian II"
+    		}
+    	],
+    	"id": "00000000-0000-0000-0000-000000000000"
+    }
+parameters: []
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/vnd.hedtech.integration.v12+json
+    description: ""
+  - name: Content-Type
+    value: application/vnd.hedtech.integration.v12+json
+    id: pair_1c7f4d2c94eb4123975e43e740053850
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: 100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

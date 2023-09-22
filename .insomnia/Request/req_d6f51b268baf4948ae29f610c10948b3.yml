@@ -1,0 +1,42 @@
+_id: req_d6f51b268baf4948ae29f610c10948b3
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695233755780
+created: 1695233714873
+url: "{{ _.ethosURL }}/academic-periods"
+name: academic-periods
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9666fb2aa95a409db643956b0ac9e291
+    name: limit
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_22f44a9da73845fcba423e6e74e352ae
+    name: offset
+    value: "200"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_3acc95bfd19f49649e1e5cdeb9aaa17f
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: 75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

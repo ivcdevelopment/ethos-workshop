@@ -1,0 +1,27 @@
+_id: req_3e0f1640c0cd4b6ebcf55be20b9912da
+type: Request
+parentId: wrk_0eae351dccf44edc880729bc61375a55
+modified: 1662555817339
+created: 1662555416092
+url: https://integrate.elluciancloud.com/admin/available-resources
+name: available resources
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648685562964.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

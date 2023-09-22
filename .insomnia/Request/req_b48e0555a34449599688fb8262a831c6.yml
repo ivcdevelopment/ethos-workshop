@@ -1,0 +1,27 @@
+_id: req_b48e0555a34449599688fb8262a831c6
+type: Request
+parentId: wrk_0eae351dccf44edc880729bc61375a55
+modified: 1694449491738
+created: 1662555416089
+url: https://integrate.elluciancloud.com/appconfig
+name: appconfig
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648685562970.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

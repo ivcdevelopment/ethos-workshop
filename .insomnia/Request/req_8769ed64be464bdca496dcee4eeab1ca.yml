@@ -1,0 +1,31 @@
+_id: req_8769ed64be464bdca496dcee4eeab1ca
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695320137090
+created: 1695320131286
+url: "{{ _.ethosURL }}/advisor-types"
+name: advisor-types
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9666fb2aa95a409db643956b0ac9e291
+    name: limit
+    value: "10"
+    description: ""
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

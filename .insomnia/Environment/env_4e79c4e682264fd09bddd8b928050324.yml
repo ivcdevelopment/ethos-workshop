@@ -1,0 +1,23 @@
+_id: env_4e79c4e682264fd09bddd8b928050324
+type: Environment
+parentId: env_7ba7641e24be2f1ad19937693953749e3c5e351b
+modified: 1695400045329
+created: 1662555416035
+name: Test
+data:
+  apiKey: 209089c0-7615-4ace-9a93-c5a4ea230dd8
+  ethosURL: https://integrate.elluciancloud.com/api
+  authURL: https://integrate.elluciancloud.com/auth
+  graphQLURL: https://integrate.elluciancloud.com/graphql
+  token: "{% response 'raw', 'req_3cc856600fdc4b1e95883218aa3862b6', '', 'always',
+    60 %}"
+dataPropertyOrder:
+  "&":
+    - apiKey
+    - ethosURL
+    - authURL
+    - graphQLURL
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1651565241086

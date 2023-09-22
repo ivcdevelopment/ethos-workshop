@@ -1,0 +1,24 @@
+_id: req_3cc856600fdc4b1e95883218aa3862b6
+type: Request
+parentId: wrk_0eae351dccf44edc880729bc61375a55
+modified: 1695231481428
+created: 1662555416136
+url: "{{ _.authURL }}"
+name: auth
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.apiKey }}"
+  prefix: ""
+metaSortKey: -1648685562983
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

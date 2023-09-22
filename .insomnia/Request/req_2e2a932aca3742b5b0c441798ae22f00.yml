@@ -1,0 +1,27 @@
+_id: req_2e2a932aca3742b5b0c441798ae22f00
+type: Request
+parentId: wrk_0eae351dccf44edc880729bc61375a55
+modified: 1694450852733
+created: 1694450823886
+url: https://integrate.elluciancloud.com/errors
+name: errors
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1648685562962.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
