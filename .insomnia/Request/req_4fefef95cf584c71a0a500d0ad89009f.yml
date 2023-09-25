@@ -1,7 +1,7 @@
 _id: req_4fefef95cf584c71a0a500d0ad89009f
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695677735193
+modified: 1695679805483
 created: 1662555416072
 url: "{{ _.ethosURL }}/persons"
 name: persons
@@ -33,7 +33,7 @@ authentication:
   type: bearer
   token: "{{ _.token }}"
   prefix: Bearer
-metaSortKey: 0
+metaSortKey: 12.109375
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

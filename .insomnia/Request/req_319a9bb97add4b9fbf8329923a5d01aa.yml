@@ -1,7 +1,7 @@
 _id: req_319a9bb97add4b9fbf8329923a5d01aa
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695677830023
+modified: 1695679823172
 created: 1695234355027
 url: "{{ _.ethosURL }}/ecm-persons"
 name: ecm-persons
@@ -33,7 +33,7 @@ authentication:
   type: bearer
   token: "{{ _.token }}"
   prefix: Bearer
-metaSortKey: 25
+metaSortKey: 12.3046875
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
