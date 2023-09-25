@@ -1,0 +1,31 @@
+_id: req_9db6e37f2a2441fa8a72e31f4aea2847
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695678463484
+created: 1695678459281
+url: "{{ _.ethosURL }}/campus-organizations"
+name: campus-organizations
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9666fb2aa95a409db643956b0ac9e291
+    name: limit
+    value: "10"
+    description: ""
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -10.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

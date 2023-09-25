@@ -1,0 +1,43 @@
+_id: req_1d6c86264a5a49fc88243b2898f4016a
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695679514860
+created: 1695679507014
+url: "{{ _.ethosURL }}/enrollment-statuses"
+name: enrollment-statuses
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9666fb2aa95a409db643956b0ac9e291
+    name: limit
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_22f44a9da73845fcba423e6e74e352ae
+    name: offset
+    value: "200"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_3acc95bfd19f49649e1e5cdeb9aaa17f
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: 8.59375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,43 @@
+_id: req_0fed00ddaf554cb198a7a023c7fbc90a
+type: Request
+parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
+modified: 1695678650056
+created: 1695678616690
+url: "{{ _.ethosURL }}/employment-departments"
+name: employment-departments
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_9666fb2aa95a409db643956b0ac9e291
+    name: limit
+    value: "1000"
+    description: ""
+    disabled: false
+  - id: pair_22f44a9da73845fcba423e6e74e352ae
+    name: offset
+    value: "200"
+    description: ""
+    disabled: true
+headers:
+  - id: pair_2226ff25df6546e48f25416ce7ef9f1b
+    name: Accept
+    value: application/json
+    description: ""
+  - id: pair_3acc95bfd19f49649e1e5cdeb9aaa17f
+    name: ""
+    value: ""
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: Bearer
+metaSortKey: 7.8125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
