@@ -1,7 +1,7 @@
 _id: req_4fefef95cf584c71a0a500d0ad89009f
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695235096754
+modified: 1695677735193
 created: 1662555416072
 url: "{{ _.ethosURL }}/persons"
 name: persons
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

@@ -1,7 +1,7 @@
 _id: req_aa711e1fda7244baa7581bc17569674c
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695320549282
+modified: 1695677817174
 created: 1695320529070
 url: "{{ _.ethosURL }}/fiscal-periods"
 name: fiscal-periods
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

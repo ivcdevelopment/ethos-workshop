@@ -1,7 +1,7 @@
 _id: req_4defb95fc850435e98e0b6b30c8bed72
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695320610730
+modified: 1695677809643
 created: 1695320607258
 url: "{{ _.ethosURL }}/instructor-categories"
 name: instructor-categories
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

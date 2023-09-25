@@ -1,7 +1,7 @@
 _id: req_926c4125d4214395bd9cae896c3848c1
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695320954050
+modified: 1695677827108
 created: 1695320950543
 url: "{{ _.ethosURL }}/student-types"
 name: student-types
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

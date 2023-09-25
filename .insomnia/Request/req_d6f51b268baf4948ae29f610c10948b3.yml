@@ -1,7 +1,7 @@
 _id: req_d6f51b268baf4948ae29f610c10948b3
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695233755780
+modified: 1695677835105
 created: 1695233714873
 url: "{{ _.ethosURL }}/academic-periods"
 name: academic-periods
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

@@ -1,7 +1,7 @@
 _id: req_c4d3dcead65c487a90fbadcbeece2ead
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695233934188
+modified: 1695677837805
 created: 1695233862498
 url: "{{ _.ethosURL }}/administrative-periods"
 name: administrative-periods
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"

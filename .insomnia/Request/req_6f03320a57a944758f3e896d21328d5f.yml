@@ -1,7 +1,7 @@
 _id: req_6f03320a57a944758f3e896d21328d5f
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695320424167
+modified: 1695677801222
 created: 1695320405946
 url: "{{ _.ethosURL }}/employees"
 name: employees
@@ -28,6 +28,7 @@ headers:
     name: ""
     value: ""
     description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"
