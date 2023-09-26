@@ -1,7 +1,7 @@
 _id: req_d5b9abb195984b1a86f88b31b8cceb59
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695677946248
+modified: 1695752492703
 created: 1695677940769
 url: "{{ _.ethosURL }}/academic-periods"
 name: academic-periods
@@ -12,6 +12,10 @@ parameters:
   - id: pair_9666fb2aa95a409db643956b0ac9e291
     name: limit
     value: "10"
+    description: ""
+  - id: pair_43ef8262b6ec4f27aecdf26b258b3d06
+    name: criteria
+    value: '{"category":{"type":"term"}}'
     description: ""
 headers:
   - id: pair_2226ff25df6546e48f25416ce7ef9f1b

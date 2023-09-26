@@ -1,7 +1,7 @@
 _id: req_0fed00ddaf554cb198a7a023c7fbc90a
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695678650056
+modified: 1695748101381
 created: 1695678616690
 url: "{{ _.ethosURL }}/employment-departments"
 name: employment-departments
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_9666fb2aa95a409db643956b0ac9e291
     name: limit
-    value: "1000"
+    value: "10"
     description: ""
     disabled: false
   - id: pair_22f44a9da73845fcba423e6e74e352ae

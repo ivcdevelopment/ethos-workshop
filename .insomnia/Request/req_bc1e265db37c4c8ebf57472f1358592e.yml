@@ -1,7 +1,7 @@
 _id: req_bc1e265db37c4c8ebf57472f1358592e
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695320302537
+modified: 1695751661163
 created: 1695320300040
 url: "{{ _.ethosURL }}/courses"
 name: courses
@@ -11,13 +11,19 @@ body: {}
 parameters:
   - id: pair_9666fb2aa95a409db643956b0ac9e291
     name: limit
-    value: "10"
+    value: "1"
     description: ""
 headers:
   - id: pair_2226ff25df6546e48f25416ce7ef9f1b
     name: Accept
     value: application/json
     description: ""
+    disabled: false
+  - id: pair_eb417ff8f76043109152ff98be9cb068
+    name: Accept
+    value: application/vnd.hedtech.integration.v16+json
+    description: ""
+    disabled: true
 authentication:
   type: bearer
   token: "{{ _.token }}"
