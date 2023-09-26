@@ -1,7 +1,7 @@
 _id: req_926c4125d4214395bd9cae896c3848c1
 type: Request
 parentId: fld_69277e2310f44dc9ac6ed5d5d065501e
-modified: 1695677827108
+modified: 1695758431554
 created: 1695320950543
 url: "{{ _.ethosURL }}/student-types"
 name: student-types
@@ -11,7 +11,7 @@ body: {}
 parameters:
   - id: pair_9666fb2aa95a409db643956b0ac9e291
     name: limit
-    value: "5"
+    value: "100"
     description: ""
     disabled: false
   - id: pair_22f44a9da73845fcba423e6e74e352ae
